@@ -41,4 +41,4 @@ def platinum_curfew_checker(current_time, curfew_time)
     puts "There are #{curfew_time - current_time} hours until curfew"
   end
 end
-puts platinum_curfew_checker(5, 11)
+puts platinum_curfew_checker(4, 10)
