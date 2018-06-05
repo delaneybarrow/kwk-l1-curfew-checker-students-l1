@@ -32,6 +32,7 @@ def deluxe_curfew_checker(time)
     puts "There are #{curfew - time} hours until curfew"
   end
 end
+puts deluxe_curfew_checker(5)
 
 def platinum_curfew_checker(current_time, curfew_time)
   if current_time > curfew_time
